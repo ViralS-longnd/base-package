@@ -1,0 +1,37 @@
+{
+    "name": "virals-package/virals-base",
+    "description": "Base Test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ViralS-longnd",
+            "email": "longnd@viralsoft.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ViralsPackage\\ViralsBase\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ViralsPackage\\ViralsBase\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\ViralsPackage\\ViralsBase\\ViralsBaseServiceProvider"
+            ]
+        }
+    }
+}
