@@ -1,7 +1,7 @@
 <?php
 
 
-namespace ViralsInfyom\ViralsBase\app\Models;
+namespace ViralsPackage\ViralsBase\app\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
